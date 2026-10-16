@@ -430,6 +430,58 @@ header nav a:hover, .encabezado nav a:hover {
   text-decoration: underline;
 }
 
+/* Estilo base para todas las tarjetas */
+.tarjeta, .Tarjeta-destacada {
+  background-color: #121212; /* Fondo negro */
+  color: #ffffff;            /* Texto blanco */
+  padding: 20px;
+  border-radius: 12px;       /* Esquinas redondeadas */
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+/* Tarjeta normal (false): Borde gris oscuro que la rodea por completo */
+.tarjeta {
+  border: 2px solid #333333; 
+}
+
+/* Tarjeta destacada (true): Borde blanco que la rodea por completo */
+.Tarjeta-destacada {
+  border: 2px solid #ffffff; 
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.15); /* Brillo sutil */
+}
+
+/* Estilos de los elementos internos */
+.tarjeta-icono {
+  font-size: 2rem;
+  display: inline-block;
+}
+
+.tarjeta h3, .Tarjeta-destacada h3 {
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.tarjeta p, .Tarjeta-destacada p {
+  margin: 0;
+  color: #aaaaaa; /* Gris claro para la descripción */
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.tarjeta-horas {
+  font-weight: bold;
+  color: #ffffff !important;
+  margin-top: auto; /* Empuja las horas hacia abajo */
+  font-size: 0.9rem;
+}
+
+
 /* ==========================================
    PIE DE PÁGINA
 ========================================== */

@@ -1,4 +1,3 @@
-import readLogo from '../assets/react.svg';
 
 function Tarjeta({icono, titulo, descripcion, horas, destacada}) {
     return( 
@@ -11,4 +10,4 @@ function Tarjeta({icono, titulo, descripcion, horas, destacada}) {
     )
 }
 
-export default Tarjeta 
+export default Tarjeta   

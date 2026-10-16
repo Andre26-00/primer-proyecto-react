@@ -1,6 +1,7 @@
 function Sidebar() {
   return (
     <aside className="sidebar">
+        <h2 className="sidebar-titulo">Hola, Andrea Garzón Astudillo</h2>
         <h3 className="sidebar-titulo">Menú</h3>
         <nav>   
             <ul className="sidebar-Menu">

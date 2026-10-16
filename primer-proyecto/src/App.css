@@ -528,3 +528,51 @@ footer, .pie-pagina {
     text-align: center;
   }
 }
+
+.presentacion {
+    background-color: #121212;
+    color: #ffffff;
+    padding: 24px;
+    border-radius: 12px;
+    max-width: 400px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    font-family: system-ui, -apple-system, sans-serif;
+    border: 1px solid #2a2a2a;
+}
+
+.presentacion h2 {
+    color: #00adb5;
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #2a2a2a;
+    padding-bottom: 8px;
+}
+
+.presentacion-nombre {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #eeeeee;
+    margin-bottom: 16px;
+}
+
+.presentacion p {
+    margin: 8px 0;
+    color: #b3b3b3;
+    font-size: 0.95rem;
+}
+
+.presentacion strong {
+    color: #ffffff;
+}
+
+.presentacion a {
+    color: #00adb5;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.presentacion a:hover {
+    color: #393e46;
+    text-decoration: underline;
+}

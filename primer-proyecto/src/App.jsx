@@ -23,7 +23,11 @@ function App() {
       <main className="contenido">
         <h2>Bienvenido al programa {programa}</h2>
         <section className="tarjetas">
-          <Presentacion />
+          <Presentacion 
+          nombre="Andrea Garzón Astudillo"
+          barrio="Cajete"
+          correo="garzonastudillo2006.15@gmail.com"
+          telefono="+573146779758"/>
           <Tarjeta
           icono ="🌷" 
           titulo =" React"
